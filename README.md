@@ -2,7 +2,7 @@
 
 This repo covers the implementation of the following paper: 
 
-**"Towards Automated Polyp Segmentation Using Weakly- and Semi-Supervised Learning and Deformable Transformers (CVPR 2023 workshop)"** [Pre-print](https://arxiv.org/abs/2211.11847)
+**"Towards Automated Polyp Segmentation Using Weakly- and Semi-Supervised Learning and Deformable Transformers (CVPR 2023 workshop)"** [Pre-print]([https://arxiv.org/abs/2211.11847](https://openaccess.thecvf.com/content/CVPR2023W/VISION/papers/Ren_Towards_Automated_Polyp_Segmentation_Using_Weakly-_and_Semi-Supervised_Learning_and_CVPRW_2023_paper.pdf))
 
 **Training procedure**
 
@@ -24,11 +24,13 @@ outperforming some state-of-the-art fully supervised models. Also, our framework
 
 If you find this repo useful for your research, please consider citing the paper
 ```
-@article{ren2022towards,
-  title={Towards Automated Polyp Segmentation Using Weakly-and Semi-Supervised Learning and Deformable Transformers},
-  author={Ren, Guangyu and Lazarou, Michalis and Yuan, Jing and Stathaki, Tania},
-  journal={arXiv preprint arXiv:2211.11847},
-  year={2022}
+@InProceedings{Ren_2023_CVPR,
+    author    = {Ren, Guangyu and Lazarou, Michalis and Yuan, Jing and Stathaki, Tania},
+    title     = {Towards Automated Polyp Segmentation Using Weakly- and Semi-Supervised Learning and Deformable Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {4354-4363}
 }
 ```
 
