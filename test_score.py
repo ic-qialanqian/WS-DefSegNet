@@ -13,11 +13,11 @@ test_datasets = {'CVC-300':dutrgbd,'Kvasir':nlpr,'ETIS-LaribPolypDB':nlpr,'CVC-C
 
 for method_name,method_map_root in RGBD_SOD_Models.items():
     print(method_name)
-    method_map_root='/home/guangyu/csp2/projects/saliency_transformer-guangyu/results/vit_polyp_lr1e-4/'
+    method_map_root='/'
     
     for name, root in test_datasets.items():
        
-        root = '/home/guangyu/csp/projects/PraNet/data/TestDataset/gt/'
+        root = './gt/'
         print(name)
         sal_root = method_map_root +name
         print(sal_root)
